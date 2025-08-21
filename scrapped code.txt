@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website - About</title>
+    <meta name="description" content="This is the official website of Warren Van Zuydam, a.k.a Dee23Gaming">
+    <meta name="keywords" content="Warren Van Zuydam, Dee23Gaming, gaming, blog, projects, Minecraft, YouTube">
+    <meta name="author" content="Warren Van Zuydam">
+    <link rel="icon" type="image/x-icon" href="assets/title_icon.jpg">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <meta name="google-site-verification" content="v8VjlYKnZX4Xfu70g9rDtp-VXtUlvsRjh2hiZPCTvCk" />
+
+</head>
+
+<body style="background-color: #5c5c5c;">
+    <!-- MAIN WEBPAGE BOX STARTS -->
+    <div style="max-width: 100rem; background-color: #272727; margin: auto;">
+
+
+        <!-- NAV STARTS -->
+        <nav>
+
+            <div class="nav-menu">
+                <img src="images/logo.svg" alt="" class="nav-logo">
+                <a href="index.html" class="nav-item">HOME</a>
+                <a href="about.html" class="nav-item">ABOUT</a>
+                <a href="" class="nav-item">SHOP</a>
+                <a href="" class="nav-item">BLOG</a>
+                <a href="" class="nav-item">CONTACT</a>
+            </div>
+        </nav>
+        <!-- NAV ENDS -->
+        <br>
+        <main>
+
+
+
+            <section
+                style="background-color: #272727; background-image: url(images/hero.svg); background-position: center; background-repeat: no-repeat; background-size: cover;">
+                <!-- USE SECTIONS FOR BACKGROUND COLORS AND SECTIONS -->
+
+                <div class="grid-box1">
+
+
+                    <div class="grid-child1" style="justify-content: center; align-items: center;">
+                        <img src="images/logo.svg" alt="" style="width: 10rem; max-width: 100%;">
+                    </div>
+                    <div id="hero" class="grid-child1"
+                        style="justify-content: center; align-items: center; height: 50rem;">
+                        <p class="text1" style="color: #ffffff;">About Me</p>
+                    </div>
+
+
+
+                </div>
+
+            </section>
+
+
+
+            <section style="background-color: #272727;"> <!-- USE SECTIONS FOR BACKGROUND COLORS AND SECTIONS -->
+
+                <div class="grid-box1">
+
+                    <div class="grid-child1" style="justify-content: center;">
+                        <p class="text2" style="color: #ffffff; margin: 1rem;">My name is Warren Van Zuydam, and welcome to my website! This is my personal website, used to
+                            host my portfolio, digital products, services, and anything else I feel like. I'm an amateur
+                            graphic and website designer looking to share my creative work and skills with the rest of
+                            the world. I dabble into all kinds of things to do with computers, from graphic design, to
+                            operating systems.</p>
+                    </div>
+                    <div class="grid-child1" style="justify-content: center; align-items: center;">
+                        <img src="images/mugshot.png" alt="" style="width: 100%; max-width: 100%;">
+                    </div>
+                    <div class="grid-child1">
+                        <img src="images/title_icon.jpg" alt="" style="width: 100%; max-width: 100%;">
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+
+
+
+
+
+            <!-- MAIN WEBPAGE BOX ENDS -->
+        </main>
+        <footer>
+
+        </footer>
+    </div>
+    </div>
+</body>
+
+</html>
