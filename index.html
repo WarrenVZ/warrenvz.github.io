@@ -1,288 +1,118 @@
 <!DOCTYPE html>
-<html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Warren Van Zuydam Website - Home</title>
-    <meta name="description" content="This is the official website of Warren Van Zuydam">
+    <link rel="icon" type="image/x-icon" href="/images/icon.svg">
+    <title>Warren Van Zuydam's Website</title>
     <meta name="keywords" content="Warren Van Zuydam">
     <meta name="author" content="Warren Van Zuydam">
-    <link rel="icon" type="image/x-icon" href="./images/icon.svg">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/animations.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
-    <!-- MAIN WEBPAGE BOX STARTS -->
-    <div style="max-width: 100vw; background-color: #ffffff; margin: auto;">
-        <!-- CHANGE MAX WIDTH OF THIS DIV TO 100REM FOR THAT BLOCKED LOOK, AND 100VW TO FILL THE EMPTY SPACES LEFT AND RIGHT -->
+
+    <header></header>
+
+    <div class="fab-container">
+        <button onclick="topFunction()" id="topBtn" class="fab"></button>
+    </div>
+
+    <main>
+        
+        <div class="wrapper"
+            style="padding-top: var(--large-padding); background-image: url('images/New\ folder/hero.svg'); background-position: center; background-repeat: no-repeat; background-size: cover;">
+            <div class="parent" style="padding-top: 5rem; padding-bottom: 5rem;">
+                <div class="child" style="width: 300px; height: 300px;">
+                    <img src="images/drawing2.png" alt="" style="width: 100%;">
+                </div>
+                <div class="child" style="width: 600px; height: auto; display: flex; flex-direction: column;">
+                    <p class="text3" style="color: var(--color-2);">Personal Website Of Warren Van Zuydam</p>
+                    <div style="display: flex;">
+                        <a href="services.html" class="button1"
+                            style="margin-top: var(--std-margin); margin-right: var(--std-margin);">My Services</a>
+                        <a href="" class="button2" style="margin-top: var(--std-margin);">My Portfolio</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="marquee-container">
+            <span class="marquee-text text1" style="color: var(--color-2);">Freelancer
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &#8226;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Computer Hobbyist
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &#8226;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Self-Taught Graphic Designer
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &#8226;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Transcriptionist
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &#8226;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Self-Taught Web Designer & Developer
+            </span>
+        </div>
 
 
-        <!-- NAV STARTS -->
-        <header></header>
-        <!-- NAV ENDS -->
-
-
-
-        <main>
-
-            <div class="fab-container">
-                <button onclick="topFunction()" id="topBtn" class="fab"></button>
+        <div class="wrapper" style="background-color: var(--color-1);">
+            <p class="text2"
+                style="color: var(--color-3); text-align: center; margin-top: var(--large-padding); margin-bottom: var(--std-padding);">
+                My Socials</p>
+            <div class="parent">
+                <!-- <div class="child" style="width: 100px; height: 100px; background-color: #00ffff;"></div>
+                <div class="child" style="width: 100px; height: 100px; background-color: #ff8000;"></div>
+                <div class="child" style="width: 100px; height: 100px; background-color: #e5ff00;"></div>
+                <div class="child" style="width: 100px; height: 100px; background-color: #ff0099;"></div> -->
+                <img src="images/icons8-bluesky-logo.svg" alt=""
+                    style="width: 80px; height: 100px; margin: var(--std-margin);">
+                <img src="images/icons8-facebook.svg" alt=""
+                    style="width: 80px; height: 100px; margin: var(--std-margin);">
+                <img src="images/icons8-linkedin.svg" alt=""
+                    style="width: 80px; height: 100px; margin: var(--std-margin);">
             </div>
 
-
-
-            <form action="?" method="POST">
-                <div class="g-recaptcha" data-sitekey="6LfBDrorAAAAALW_vZ7fy8GH7qRBVIbbZbFJe9Tu"></div>
-                <br />
-                <input type="submit" value="Submit">
-            </form>
-
-
-            <div class="grid-box1"
-                style="background-color: #ffffff; background-image: url(./images/New\ folder/hero2.svg); background-position: center; background-repeat: no-repeat; background-size: cover; background-attachment: scroll; padding-top: 100px;">
-
-
-                <div class="grid-child1 puff-in-center" style="justify-content: center; align-items: center;">
-
-                    <!-- <div class="swiper">
-                        <div class="swiper-wrapper" style="width: 25rem;">
-                            <div class="swiper-slide"><img src="./adverts/drawing2.png"></div>
-                        </div>
-                    </div> -->
-                    <a href=""><img class="image1 puff-in-center" src="images/New folder/drawing2.png"
-                            alt="Warren Van Zuydam"
-                            style="width: 30rem; max-width: 100%; margin: 2rem; border-color: #ffffff; border-width: 0rem; border-style: solid;"></a>
+            <p class="text2"
+                style="color: var(--color-3); text-align: center; margin-top: var(--large-padding); margin-bottom: var(--std-padding);">
+                About Me</p>
+            <img src="images/20943584.jpg" alt="" style="width: 24rem; max-width: 100%; display: block; margin: auto;">
+            <div style="display: flex; justify-content: center;">
+                <div class="parent" style="flex-direction: column; align-items: flex-start; width: 48rem;">
+                    <p class="text2" style="color: var(--color-2); margin-bottom: var(--std-margin);">Hi;</p>
+                    <p class="text1" style="color: var(--color-2); max-width: 48rem;">I'm <b>Warren Van
+                            Zuydam</b>. I created this personal website,
+                        mainly to show off my random skills, host my portfolio, blog posts, etc. This website is for
+                        anyone
+                        looking to either employ me full-time, or hire me for my freelance services.
+                        <br><br>
+                        I'm a self-taught web developer, graphic designer, and a freelance general transcriptionist with
+                        over 3 years of experience. This website is built by me, using plain HTML, CSS, and JavaScript.
+                        I
+                        can do a large variety of things with computers to solve different problems. If you haven't
+                        noticed,
+                        I am a "DIY" type of guy, so I will do anything and everything I take interest in, as long as it
+                        involves a computer.
+                    </p>
                 </div>
-                <div id="hero" class="grid-child1 slide-in-left"
-                    style="justify-content: center; align-items: center; height: 50rem;">
-                    <div
-                        style="border-left-style: solid; border-width: 0px; border-color: #272727; padding: 1rem; display: grid; margin: 2rem">
-                        <p class="text1" style="color: #4a7bff; font-weight: bold;">Personal Website Of Warren Van
-                            Zuydam</p>
-                        <p class="text2" style="color: #4a7bff; font-weight: normal;">Self-Taught Graphic Designer,
-                            Transcriptionist, Web Developer, And More...
-                        </p>
-                        <a href="index.html#jump1" class="button5" style="width: 8rem; text-align: center;">My
-                            Skills</a>
-                        <a href="services.html" class="button5" style="width: 8rem; text-align: center;">My Services</a>
-                    </div>
-
-
-                </div>
-
-
-
             </div>
 
+        </div>
 
 
+    </main>
 
-            <section
-                style="background-color: #ffffff; background-position: center; background-repeat: no-repeat; background-size: cover; display: flex; justify-content: center;">
-                <div style="margin: 2rem;">
-                    <p class="text1" style="color: #4a7bff; text-align: center; margin-bottom: 1rem;">Follow Me On</p>
-                    <!-- <p class="text2" style="color: #272727; text-align: center; margin-bottom: 1rem;">Follow Me On
-                    </p> -->
-                    <div style="display: flex; justify-content: center; margin-bottom: 1rem;">
-                        <a href="https://bsky.app/profile/warrenvanzuydam.bsky.social" target="_blank"><img
-                                src="images/icons8-bluesky-logo.svg" alt=""
-                                style="width: 4rem; max-width: 100%; margin: 1rem;" class=""></a>
-                        <a href="https://www.facebook.com/warren.vanzuydam.3" target="_blank"><img
-                                src="images/icons8-facebook.svg" alt=""
-                                style="width: 4rem; max-width: 100%; margin: 1rem;" class=""></a>
-                        <a href="https://www.linkedin.com/in/warren-van-zuydam-23b61a1b0/?originalSubdomain=za"
-                            target="_blank"><img src="images/icons8-linkedin.svg" alt=""
-                                style="width: 4rem; max-width: 100%; margin: 1rem;" class=""></a>
-                        <!-- <a href=""><img src="images/icons8-tiktok.svg" alt="" style="width: 4rem; max-width: 100%; margin: 1rem;"></a> -->
-                    </div>
-                    <!-- <p class="text2" style="color: #272727; text-align: center; margin-bottom: 1rem;">Or
-                    </p> -->
-                    <!-- <div style="display: flex; justify-content: center; margin-bottom: 1rem;">
-                        <a href="contact.html" class="button3">Get In Touch</a>
-                    </div> -->
-                </div>
-            </section>
+    <!-- <iframe src="https://forms.gle/9vT3tE1HBFcBRug4A" frameborder="0" style="width: 100%; height: 50rem;"></iframe> -->
 
+    <footer></footer>
 
-            <section style="background-color: #ffffff;" class="fade-in">
-                <!-- USE SECTIONS FOR BACKGROUND COLORS AND SECTIONS -->
-                <div class="grid-box1">
-                    <div class="grid-child1" style="justify-content: flex-start;">
-                        <p class="text1"
-                            style="color: #4a7bff; margin-left: 2rem; margin-right: 2rem; margin-top: 2rem; font-size: 4rem;">
-                            About This Website:</p>
-                        <p style="color: #4a7bff; margin-left: 2rem; margin-right: 2rem; margin-top: 2rem">
-                            Hi, I'm <b style="color: #4a7bff;">Warren Van Zuydam</b>. I
-                            created this personal website, mainly to show off my random skills, host my portfolio,
-                            blogs, etc. This website is for anyone looking to
-                            either employ me full-time, or hire me for my freelance services. <br><br>
-                            I'm a self-taught web developer, graphic designer, and a freelance general transcriptionist
-                            with over
-                            3 years of experience. This website is built by me, using plain HTML, CSS, and JavaScript. I
-                            can do a large variety of things with computers to solve different problems. If you haven't
-                            noticed, I am a "DIY"
-                            type of guy, so I will do anything and everything I take interest in, as long as it involves
-                            a computer.
-                        </p>
-                    </div>
-                    <div class="grid-child1" style="justify-content: center; align-items: center;">
-                        <!-- <img id="image2" class="slide-in-left" src="images/mugshot.svg" alt="Warren Van Zuydam" style="width: 15rem; max-width: 100%; margin: 2rem; border-color: #ffffff; border-width: 1rem; border-style: solid;"> -->
-                    </div>
-                </div>
-            </section>
-
-
-            <section id="jump1" style="background-color: #ffffff;" class="fade-in">
-                <!-- USE SECTIONS FOR BACKGROUND COLORS AND SECTIONS -->
-                <div class="grid-box1">
-                    <div class="grid-child1" style="justify-content: flex-start;">
-                        <p class="text1"
-                            style="color: #4a7bff; margin-left: 2rem; margin-right: 2rem; margin-top: 2rem; font-size: 4rem;">
-                            My Qualifications:</p>
-                        <p style="color: #4a7bff; margin-left: 2rem; margin-right: 2rem; margin-top: 2rem">
-                            <b style="color: #4a7bff;">I'm a qualified structural draughtsman</b>. I have experience in
-                            AutoCAD, Tekla, Revit, and
-                            Microstation. Unfortunately, I don't have access to the proprietary software, so this field
-                            has been really difficult
-                            to get into, due to the pricing, and the lack of safe, free alternatives. <br> <br>
-                            <b style="color: #4a7bff;">I'm a qualified TEFL teacher</b> (English teacher). I completed
-                            my 120-hour TEFL theoretical
-                            course, as well as my 20-hour practical course. I learned the fundamentals of managing a
-                            classroom, teaching students in fun and
-                            engaging ways, how to use Zoom, its whiteboard functionality, breakout rooms, etc. I am
-                            still open to this field, though it has become saturated, like most fields nowadays. <br>
-                            <br>
-                            <b style="color: #4a7bff;">I'm a general transcriptionist</b>. I'm not really "qualified" in
-                            general transcription. This field
-                            usually requires somebody who is self-taught, and this is often done in the form of
-                            freelance, not full-time employment, though there are some
-                            really loyal clients who stick around for many years. I receive audio/video from a client,
-                            then I type what is being said in the audio/video. This requires patience, the ability to
-                            tell
-                            different voices apart, proofread, and have a
-                            strict understanding of transcription style guides/standards. Even though AI has been
-                            disrupting the job
-                            market these past few years, human transcription is still a high-in-demand skill.<br><br>
-                            <b style="color: #4a7bff;">I offer a few online services on my website, so if you are
-                                interested, then...</b>
-                        </p>
-                        <a href="./services.html" class="button5" style="margin: 2rem;">Learn More</a>
-                    </div>
-                    <div class="grid-child1" style="justify-content: center; align-items: center;">
-                        <img class="image2" src="images/skills.svg" alt="skills"
-                            style="width: 15rem; max-width: 100%; margin: 2rem; border-color: #ffffff; border-width: 0rem; border-style: solid;">
-                    </div>
-                </div>
-            </section>
-
-
-
-            <!-- <section style="background-color: #ffffff;">
-                <div class="grid-box1">
-                    <div class="grid-child1" style="justify-content: flex-start;">
-                        <p class="text1 slide-in-left"
-                            style="color: #272727; margin-left: 2rem; margin-right: 2rem; margin-top: 2rem; font-size: 4rem;">
-                            My Hobbies, And Autism:</p>
-                        <p style="color: #272727; margin-left: 2rem; margin-right: 2rem; margin-top: 2rem">
-                            I have an ridiculous list of random interests and skills. Where most people are satisfied
-                            with
-                            having fun on weekends with their friends, I am sitting alone in my room with tonnes of
-                            things to keep my introverted and socially anxious brain busy, from managing this
-                            personal website of mine, to making SVG graphics, making PDF documents for fun (Yes, I'm
-                            serious), farting around with music production,
-                            learning a programming language, trying out a new operating system, painting, drawing, etc.
-                            I can carry on for ages. It often
-                            gets overwhelming managing all these hobbies, especially when I am pressured as an adult to
-                            fit in with society, and make money. I suffer from something called "shiny object syndrome".
-                            This is a common struggle for autistic people. I
-                            constantly journal new thoughts, emotions, ideas, and I take screenshots of useful nuggets
-                            of information for who knows when it'll actually be useful. I would hyperfocus on my current
-                            interest, talking about it to my family (And most likely boring
-                            them to death), then, I abandon it temporarily for the next interest. I have learned a lot
-                            of programs,
-                            problem-solving skills, etc. by dabbling into many different fields.
-                            <br><br>
-                            Unfortunately, I don't fit in with society (I struggle to talk like normal people, maintain
-                            normal eye
-                            contact, have "soft skills" for basic jobs that people usually find super easy, read social
-                            cues, be socially active and invested,
-                            maintain normal body language, etc. I am socially anxious, and I am too honest with people,
-                            which can be harmful in corporate environments). Because of my autistic
-                            traits, I easily get rejected from the most important things in life (Job
-                            opportunities, friendships, and relationships). I have been diagnosed with serious
-                            depression due to my struggles trying to be a normal human like everyone else. The
-                            popular saying goes, "Autistic people live life on hard mode". And it's true. There isn't
-                            enough awareness
-                            surrounding autism, and people can often be very cruel and dismissive towards people like
-                            us. So this
-                            website of mine should hopefully serve as a tool for me to take matters into my own hands.
-                            So if
-                            you've read this far, I thank you for your patience. Please consider supporting someone like
-                            me. We
-                            are very smart people (I hate to call myself that), but we are often denied the chance to
-                            participate in society. If you want to hire me for a job position, I will gladly take it,
-                            and even help you as a friend beyond the original job description. Seriously, I can do many
-                            things within my autistic limitations.
-                        </p>
-                    </div>
-                    <div class="grid-child1" style="justify-content: center; align-items: center;">
-                        
-                    </div>
-                </div>
-            </section> -->
-
-
-
-
-            <!-- MAIN WEBPAGE BOX ENDS -->
-        </main>
-        <footer></footer>
-    </div>
-    </div>
     <script src="scripts/reusable-html-loader.js"></script>
-    <script src="scripts/animate_on_view.js"></script>
     <script src="scripts/scroll_to_top_btn.js"></script>
-
-    <script src="https://www.google.com/recaptcha/api.js"></script>
-
-    <script>
-        function onSubmit(token) {
-            document.getElementById("demo-form").submit();
-        }
-    </script>
-
-    <button class="g-recaptcha" data-sitekey="6LfBDrorAAAAALW_vZ7fy8GH7qRBVIbbZbFJe9Tu" data-callback='onSubmit'
-        data-action='submit'>Submit</button>
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script>
-        const swiper = new Swiper('.swiper', {
-            // Optional parameters
-            autoplay: {
-                delay: 5000,
-                disableOnInteraction: false,
-            },
-            loop: true,
-
-            // If we need pagination
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-
-            // Navigation arrows
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-
-
-        });
-    </script>
 </body>
 
 </html>
