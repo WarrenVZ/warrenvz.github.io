@@ -29,6 +29,11 @@
     font-size: clamp(3rem, 12vw, 4.5rem);
 }
 
+.link1 {
+    color: var(--color-3);
+    text-decoration: none;
+}
+
 .link-img {
     transition: opacity 0.2s, color 0.2s;
 }
@@ -257,5 +262,8 @@
 @media (max-width: 768px) {
     :root {
         --nav-padding: 0rem;
+    }
+    #hero-image {
+        width: 12rem !important;
     }
 }
