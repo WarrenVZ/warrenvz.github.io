@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Warren Van Zuydam</title>
+    <link>https://warrenvz.github.io/</link>
+    <description>Latest updates from Warren Van Zuydam</description>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Sep 2025 12:00:00 +0000</lastBuildDate>
+
+    <item>
+      <title>Example Blog Post</title>
+      <link>https://yourusername.github.io/blog/example-post.html</link>
+      <description>This is a summary of your blog post.</description>
+      <pubDate>Wed, 10 Sep 2025 08:00:00 +0000</pubDate>
+      <guid>https://yourusername.github.io/blog/example-post.html</guid>
+    </item>
+
+    <!-- Repeat <item> blocks for more blog posts -->
+  </channel>
+</rss>

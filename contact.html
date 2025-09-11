@@ -4,63 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warren Van Zuydam - Contact</title>
     <link rel="icon" type="image/x-icon" href="/images/icon.svg">
-    <title>Warren Van Zuydam's Website</title>
-    <meta name="keywords" content="Warren Van Zuydam">
-    <meta name="author" content="Warren Van Zuydam">
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="/styles/styles.css">
 </head>
 
-<body style="background-color: var(--color-1);">
+<body>
 
     <header></header>
 
-    <div class="fab-container">
-        <button onclick="topFunction()" id="topBtn" class="fab"></button>
-    </div>
-
     <main>
-        <div style="padding-top: var(--large-padding); width: 100%; height: auto; background-color: var(--color-1);">
-
-            <!--FORM STARTS-->
-            <div
-                style="display: flex; flex-direction: column; align-items: center; width: 100%; height: auto; margin: auto">
-                <p class="text2"
-                    style="color: var(--color-2); text-align: center; margin-top: var(--std-margin); margin-bottom: var(--std-margin); padding-left: var(--std-padding); padding-right: var(--std-padding);">Fill
-                    In The Form Below To Receive Your Quote</p>
-
-                <form style="display: flex; flex-direction: column; align-items: center"
-                    action="https://formspree.io/f/mzzverkp" method="POST">
-                    <label class="text1" style="color: var(--color-2);" for="fname">First Name*</label>
-                    <input class="text1" style="width: 100%; color: var(--color-2);" type="text" id="fname"
-                        name="firstname" placeholder="Your first name.." required>
-                    <br>
-                    <label class="text1" style="color: var(--color-2);" for="lname">Last Name*</label>
-                    <input class="text1" style="width: 100%; color: var(--color-2)" type="text" id="lname"
-                        name="lastname" placeholder="Your last name.." required>
-                    <br>
-                    <label class="text1" style="color: var(--color-2);" for="email">Email*</label>
-                    <input class="text1" style="width: 100%; color: var(--color-2)" type="email" id="email" name="email"
-                        placeholder="Your email address.." required>
-                    <br>
-                    <label class="text1" style="color: var(--color-2);" for="Message">Your Message*</label>
-                    <textarea class="text1" style="width: 100%; color: var(--color-2)" id="Message" name="message"
-                        placeholder="Write something.." style="height:20rem" required></textarea>
-                    <input style="width: 80%; margin: 1rem; cursor: pointer;" type="submit" value="Submit"
-                        class="button1">
-                </form>
-            </div>
-            <!--FORM ENDS-->
-
-            <p class="text1" style="text-align: center; color: var(--color-2); padding-left: var(--std-padding); padding-right: var(--std-padding);">© 2025, Warren Van Zuydam. All rights
-                reserved.
+        <section>
+            <h1>Contact me</h1>
+            <p>
+                If you want to see my CV, or hire me, or if you have any inquiries, then send an email to <a
+                    href="mailto:warrenvanz@gmail.com">warrenvanz@gmail.com</a>.
             </p>
-        </div>
+        </section>
     </main>
 
+    <footer></footer>
 
-    <script src="scripts/reusable-html-loader.js"></script>
-    <script src="scripts/scroll_to_top_btn.js"></script>
+    <script src="/scripts/reusable-html-loader.js"></script>
 </body>
 
 </html>

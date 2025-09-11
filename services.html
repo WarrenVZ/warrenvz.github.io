@@ -4,167 +4,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warren Van Zuydam - Services</title>
     <link rel="icon" type="image/x-icon" href="/images/icon.svg">
-    <title>Warren Van Zuydam's Website</title>
-    <meta name="keywords" content="Warren Van Zuydam">
-    <meta name="author" content="Warren Van Zuydam">
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="/styles/styles.css">
 </head>
 
 <body>
 
-
-
-
-
     <header></header>
 
-    <div class="fab-container">
-        <button onclick="topFunction()" id="topBtn" class="fab"></button>
-    </div>
-
     <main>
+        <section>
+            <h1>My services</h1>
+            <img src="/images/vector_icon.svg" alt="" style="width: 5rem; display: block; margin: auto;">
+            <h2>Vector graphic tracing</h2>
+            <video autoplay muted loop style="width: 100%;" class="video1">
+                <source src="videos/vid2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>
+                I will take your low-quality logo, web graphic, etc., and turn it into a
+                crisp, infinitly-scalable image, known as an "SVG" (Scalable Vector Graphic), so you can own a proper
+                source
+                image for web use, stickers, billboards, etc.. This is done by professionally tracing nearly everything
+                by hand to
+                avoid artifacts such as wobbly lines, islands, etc. that come with auto tracing functions. Humans will
+                always
+                be needed for tracing low-quality graphics, as they're not an algorithm blindly following pixels on a
+                screen. Only humans can understand exactly what look the original image graphic was going for. So if
+                this sounds good
+                to you, then...
+            </p>
+            <p><i>*Please fill in the PDF form, and send it back to me via <a
+                        href="mailto:warrenvanz@gmail.com">email</a> to get your quote.</i></p>
+            <br>
+            <a class="button1" href="/forms/vector tracing/Form.pdf" download>Download Form</a>
+            <br>
+            <br>
+        </section>
+        <section>
+            <h1>FAQs</h1>
 
+            <h2>Do you support CMYK?</h2>
+            <p>Yes, I provide both an RGB, as well as a CMYK version of your vector graphic.</p>
 
+            <h2>How much does a basic vector trace cost?</h2>
+            <p>All projects start from R150, however, this changes based on several factors, such as number of colors,
+                image complexity, image quality, number of revisions, etc.</p>
 
+            <h2>Which file formats do you provide?</h2>
+            <p>I will export your work in .SVG, .EPS, .PDF, .PNG (high-quality), and .WEBP (high-quality).</p>
 
+            <h2>What's your preferred payment method?</h2>
+            <p>At the moment, I only support EFT. PayPal support is coming very soon.</p>
 
-        <div class="wrapper" style="padding-top: var(--large-padding); background-color: var(--color-1);">
-            <p class="text3" style="color: var(--color-2); text-align: center; margin-bottom: var(--large-padding);">
-                My Services</p>
-            <div class="parent">
-                <img src="images/vector_icon.svg" alt="" style="width: 100px; margin: var(--std-margin);">
-            </div>
-            <p class="text2" style="color: var(--color-3); text-align: center; margin: var(--std-margin);">
-                Raster-To-Vector Graphic Tracing</p>
-            <div style="display: flex; justify-content: center;">
-                <video autoplay muted loop style="width: 375px; margin: 1rem;" class="video1">
-                    <source src="videos/vid2.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-            <div style="display: flex; justify-content: center;">
-                <div class="parent" style="flex-direction: column; align-items: flex-start; width: 48rem;">
-                    <p class="text1" style="color: var(--color-2); max-width: 48rem;">I will take your low-quality logo,
-                        web graphic, etc., and turn it into a crisp, infinitly-scalable image, known as an "SVG"
-                        (Scalable Vector Graphic), so you can own a proper source image for web use, stickers,
-                        billboards, etc.. This is done by professionally tracing nearly everything by hand to avoid
-                        artifacts such as wobbly lines, islands, etc. that come with auto tracing functions. Humans will
-                        always be needed for tracing low-quality graphics, as they're not an algorithm blindly following
-                        pixels on a screen. Only humans can understand exactly what look the original image graphic was
-                        going for. I will include a free CMYK/printer-friendly version of your graphic if you need it
-                        printed. I support SVG, PDF, EPS, PNG (high-quality), and JPG (high-quality). So if this sounds
-                        good to you, then...
-                    </p>
-                    <!-- <a href="https://forms.gle/Dkg8XQmKf9KRVFL16" class="button1" style="margin-top: var(--std-margin);"
-                        target="_blank">Get Your Quote</a> -->
-                        <a href="/forms/vector tracing/Form.pdf" class="button1" style="margin-top: var(--std-margin);"
-                        target="_blank" download>Get Your Quote</a>
-                </div>
-            </div>
+            <h2>What if I'm not happy with the initial results?</h2>
+            <p>I offer one free revision for your project. All revisions beyond that will
+                be a flat fee of R50 each. With every revision, I request a detailed list of changes you want me to
+                make. This way, you make the most out of each revision.</p>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <div style="display: flex; flex-direction: column; align-items: center;">
-                <p class="text2"
-                    style="color: var(--color-3); text-align: center; margin-top: var(--large-padding); margin-bottom: var(--std-margin);">
-                    FAQs</p>
-                <div class="accordion">
-                    <input type="checkbox" id="acc1">
-                    <label for="acc1" class="text1">Do You Support CMYK?</label>
-                    <div class="content text1">
-                        <p style="color: var(--color-2);">Yes, I provide both an RGB, as well as a CMYK version of your
-                            vector graphic. Please be aware
-                            that graphics originally made for screens will not translate well onto physical surfaces. You
-                            can
-                            read more on RGB vs. CMYK <a href="https://en.wikipedia.org/wiki/CMYK_color_model"
-                                class="link1" target="_blank">here</a>.</p>
-                    </div>
-
-                    <input type="checkbox" id="acc2">
-                    <label for="acc2" class="text1">How Much For A Basic Trace?</label>
-                    <div class="content text1">
-                        <p style="color: var(--color-2);">All projects start from R150, however, this will change based
-                            on
-                            several factors, such as number
-                            of colors, image complexity, image quality, number of revisions, etc.</p>
-                    </div>
-
-                    <input type="checkbox" id="acc3">
-                    <label for="acc3" class="text1">Which File Formats Do You Provide?</label>
-                    <div class="content text1">
-                        <p style="color: var(--color-2);">I will export your work in .SVG, .EPS, .PDF, .PNG
-                            (high-quality), and .WEBP (high-quality).</p>
-                    </div>
-
-                    <input type="checkbox" id="acc4">
-                    <label for="acc4" class="text1">How Does The Payment Work?</label>
-                    <div class="content text1">
-                        <p style="color: var(--color-2);">At the moment, I only support EFT. PayPal support is coming
-                            very soon. After you've received your quote, you'll have to pay a 50% deposit upfront. This
-                            is to protect me from working for free.</p>
-                    </div>
-
-                    <input type="checkbox" id="acc5">
-                    <label for="acc5" class="text1">How Do Revisions Work?</label>
-                    <div class="content text1">
-                        <p style="color: var(--color-2);">I will send you a preview of your work once I'm done, and I
-                            will ask you to confirm whether
-                            or not the final product is perfect. If not, then I will request a detailed list of changes
-                            you want me to make. Each revision will be a R50 flat fee.
-                        </p>
-                    </div>
-
-                    <input type="checkbox" id="acc6">
-                    <label for="acc6" class="text1">What About Copyright?</label>
-                    <div class="content text1">
-                        <p style="color: var(--color-2);">When submitting artwork for vectorization, you confirm that
-                            you either:</p>
-                        <br>
-                        <ul style="list-style-position: inside;">
-                            <li style="color: var(--color-2);">(a) own the copyright, trademark, or associated rights to
-                                the design, or</li>
-                            <li style="color: var(--color-2);">(b) have written authorization from the rights holder.
-                            </li>
-                        </ul>
-                        <br>
-                        <p style="color: var(--color-2);">I do not recreate copyrighted or trademarked materials without
-                            proof of permission. The
-                            client is fully responsible for ensuring that submitted artwork does not infringe on
-                            third-party rights.</p>
-                    </div>
-                </div>
-            </div>
-
-
-
-
-
-
-
-
+            <h2>What about copyright?</h2>
+            <p>When submitting artwork for vectorization, you confirm that you either:</p>
+            <ul>
+                <li>(a) own the copyright, trademark, or associated rights to the design, or</li>
+                <li>(b) have written authorization from the rights holder.</li>
+            </ul>
+            <p>I do not recreate copyrighted or trademarked materials without proof of permission. The client is fully
+                responsible for ensuring that submitted artwork does not infringe on third-party rights.</p>
+        </section>
     </main>
 
-    <!-- <iframe src="https://forms.gle/9vT3tE1HBFcBRug4A" frameborder="0" style="width: 100%; height: 50rem;"></iframe> -->
+    <footer>
+        <br>
+        <br>
+        <p>Made with ❤️ in HTML</p>
+        <p>© 2025, Warren Van Zuydam. All rights reserved.</p>
+    </footer>
 
-    <footer></footer>
-
-    <script src="scripts/reusable-html-loader.js"></script>
-    <script src="scripts/scroll_to_top_btn.js"></script>
+    <script src="/scripts/reusable-html-loader.js"></script>
 </body>
 
 </html>
