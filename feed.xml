@@ -5,7 +5,8 @@
     <link>https://warrenvz.github.io/</link>
     <description>Latest updates from Warren Van Zuydam</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Sep 2025 13:48:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Sep 2025 13:48:00 +0000</lastBuildDate>
+
 
     <item>
       <title>Best free programs for graphic design and PDF creation</title>
@@ -15,6 +16,6 @@
       <guid>https://warrenvz.github.io/blog-posts/2024-11-04/best-free-programs-for-graphic-design-and-pdf-creation.html</guid>
     </item>
 
-    <!-- Repeat <item> blocks for more blog posts -->
+
   </channel>
 </rss>
