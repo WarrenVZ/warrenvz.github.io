@@ -62,8 +62,18 @@ summary {
     color: var(--color-5);
 }
 
+nav summary {
+    list-style-position: outside;
+    font-weight: bold;
+    color: var(--color-1);
+}
+
 summary:hover {
    color: var(--color-3); 
+}
+
+nav summary:hover {
+   color: var(--color-1); 
 }
 
 nav {
@@ -78,10 +88,10 @@ nav ul {
 nav ul li a {
     text-decoration: none;
     font-weight: bold;
-    color: var(--color-5);
+    color: var(--color-1);
 }
 nav ul li a:hover {
-    color: var(--color-3);
+    text-decoration: underline;
 }
 
 hr {
