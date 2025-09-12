@@ -5,11 +5,11 @@
     <link>https://warrenvz.github.io/</link>
     <description>Latest updates from Warren Van Zuydam</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Sep 2025 15:14:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Sep 2025 15:18:00 +0000</lastBuildDate>
 
     <!-- RSS icon -->
     <image>
-      <url>https://warrenvz.github.io/images/icon.png</url>
+      <url>https://warrenvz.github.io/images/icon.svg</url>
       <title>Your Site Title</title>
       <link>https://www.example.com</link>
       <width>32</width>  <!-- Optional (max 144) -->
