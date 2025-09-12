@@ -1,33 +1,47 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
-  <channel>
-    <title>Warren Van Zuydam</title>
-    <link>https://warrenvz.github.io/</link>
-    <description>Latest updates from Warren Van Zuydam</description>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 12 Sep 2025 15:23:00 +0000</lastBuildDate>
-
-    <!-- RSS icon -->
-    <image>
-      <url>https://warrenvz.github.io/images/rss-icon.png</url>
-      <title>Warren Van Zuydam</title>
-      <link>https://warrenvz.github.io/</link>
-      <width>32</width>  <!-- Optional (max 144) -->
-      <height>32</height> <!-- Optional (max 400) -->
-    </image>
-
-
-
-
-
-    <item>
-      <title>Best free programs for graphic design and PDF creation</title>
-      <link>https://warrenvz.github.io/blog-posts/2024-11-04/best-free-programs-for-graphic-design-and-pdf-creation.html</link>
-      <description>Over the past few years, we've seen an explosive trend in the use of AI tools, such as ChatGPT, Midjourney, Dall-E 2, Sora AI, and so many other AI models...</description>
-      <pubDate>Mon, 4 Nov 2024 08:00:00 +0000</pubDate>
-      <guid>https://warrenvz.github.io/blog-posts/2024-11-04/best-free-programs-for-graphic-design-and-pdf-creation.html</guid>
-    </item>
-
-
-  </channel>
-</rss>
+    <rss version="2.0">
+      <channel>
+        <title>Warren Van Zuydam</title>
+        <link>https://warrenvz.github.io</link>
+        <description>Warren Van Zuydam RSS Feed</description>
+        <image>
+          <url>https://warrenvz.github.io/images/rss-icon.png</url>
+          <title>Warren Van Zuydam</title>
+          <link>https://warrenvz.github.io/</link>
+          <width>32</width>
+          <height>32</height>
+        </image>
+        
+        <item>
+          <title>Why Adobe is absolute rubbish for aspiring designers | Warren Van Zuydam</title>
+          <link>https://warrenvz.github.io/blog-posts/2025-07-10/why-adobe-is-absolute-rubbish-for-aspiring-designers.html</link>
+          <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
+        </item>
+        
+        <item>
+          <title>Why I prefer Linux over Windows | Warren Van Zuydam</title>
+          <link>https://warrenvz.github.io/blog-posts/2025-04-12/why-i-prefer-linux-over-windows.html</link>
+          <pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate>
+        </item>
+        
+        <item>
+          <title>How to keep your online accounts safe from hackers | Warren Van Zuydam</title>
+          <link>https://warrenvz.github.io/blog-posts/2025-03-08/how-to-keep-your-online-accounts-safe-from-hackers.html</link>
+          <pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate>
+        </item>
+        
+        <item>
+          <title>The problem with AI | Warren Van Zuydam</title>
+          <link>https://warrenvz.github.io/blog-posts/2025-01-05/the-problem-with-ai.html</link>
+          <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
+        </item>
+        
+        <item>
+          <title>Best free programs for graphic design and PDF creation | Warren Van Zuydam</title>
+          <link>https://warrenvz.github.io/blog-posts/2024-11-04/best-free-programs-for-graphic-design-and-pdf-creation.html</link>
+          <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
+        </item>
+        
+      </channel>
+    </rss>
+    
