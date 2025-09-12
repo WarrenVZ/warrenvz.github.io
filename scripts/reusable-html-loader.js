@@ -47,7 +47,7 @@ async function loadHTML(url, targetSelector) {
 
 document.addEventListener('DOMContentLoaded', () => {
 
-  loadHTML('/reusable HTML components/nav.html', 'header');
-  loadHTML('/reusable HTML components/footer.html', 'footer');
+  loadHTML('/reusable-html-components/nav.html', 'header');
+  loadHTML('/reusable-html-components/footer.html', 'footer');
 
 });
