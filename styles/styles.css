@@ -29,6 +29,10 @@ h1 {
 }
 
 h2 {
+    color: var(--color-3);
+}
+
+h3 {
     color: var(--color-5);
 }
 
@@ -48,6 +52,20 @@ ol {
     color: var(--color-5);
 }
 
+details {
+    cursor: pointer;
+}
+
+summary {
+    list-style-position: outside;
+    font-weight: bold;
+    color: var(--color-5);
+}
+
+summary:hover {
+   color: var(--color-3); 
+}
+
 nav {
     text-align: left;
 }
@@ -58,6 +76,8 @@ nav ul {
 }
 
 nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
     color: var(--color-5);
 }
 nav ul li a:hover {
