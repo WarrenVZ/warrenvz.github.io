@@ -105,6 +105,13 @@ footer {
     text-align: center;
 }
 
+pre {
+    overflow-x: auto;
+    padding: 1rem;
+    background-color: #000000;
+    color: #ffffff;
+}
+
 
 
 
