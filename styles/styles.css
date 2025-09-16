@@ -212,12 +212,6 @@ pre {
     transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
-/* .nav-box {
-    background-color: #adadad;
-    border-radius: var(--border-radius-1);
-    box-shadow: 0px 0px 16px #0000004d;
-} */
-
 
 
 
@@ -228,11 +222,4 @@ pre {
         grid-template-columns: repeat(2, 1fr);
     }
 }
-
-@media(max-width: 400px) {
-    .grid-parent-1 {
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
-
 /* MEDIA QUERIES END */
