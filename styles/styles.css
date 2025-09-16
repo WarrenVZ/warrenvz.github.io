@@ -85,6 +85,7 @@ nav summary {
     font-weight: bold;
     color: var(--color-2);
     font-size: var(--font-size-1);
+    transition: color 0.2s, color 0.2s;
 }
 
 summary:hover {
@@ -167,8 +168,9 @@ pre {
 }
 
 .button1:hover {
-    background-color: #5188ff;
-    outline-color: #5188ff;
+    background-color: var(--color-4);
+    outline-color: var(--color-4);
+    color: var(--color-1);
 }
 
 
