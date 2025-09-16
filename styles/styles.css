@@ -14,6 +14,7 @@
     --color-6: #d4d4d4;
 
     --font-1: "Montserrat", sans-serif;
+    
     --font-size-1: 1.15rem;
 }
 
@@ -56,10 +57,12 @@ a:hover {
 }
 
 ul {
+    font-size: var(--font-size-1);
     color: var(--color-5);
 }
 
 ol {
+    font-size: var(--font-size-1);
     color: var(--color-5);
 }
 
