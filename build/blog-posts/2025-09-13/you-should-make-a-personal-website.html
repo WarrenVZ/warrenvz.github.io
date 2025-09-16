@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You should make a personal website | Warren Van Zuydam</title>
+    <link rel="icon" type="image/x-icon" href="/images/icon.svg">
+    <link rel="stylesheet" href="/styles/styles.css">
+</head>
+
+<body>
+
+    <header>
+<nav id="back-to-top" aria-label="Main navigation">
+    <hr>
+    <ul>
+        <li><a href="/index.html">Home</a></li>
+        <!-- <li><a href="/services.html">My Services</a></li> -->
+        <li>
+            <details>
+                <summary>Services</summary>
+                <ul>
+                    <li><a href="/services/vector-tracing.html">Vector Tracing</a></li>
+                    <li><a href="" style="color: #7a7a7a;">Transcription (Coming Soon)</a></li>
+                </ul>
+            </details>
+        </li>
+        <li><a href="/shop.html">My Shop</a></li>
+        <li><a href="/tools.html">Useful Tools</a></li>
+        <li><a href="/portfolio.html">My Portfolio</a></li>
+        <li><a href="/blog.html">My Blog</a></li>
+        <li><a href="/contact.html">Contact Me</a></li>
+        <li><a href="https://warrenvz.github.io/feed.xml"><img src="/images/rss.svg" alt="RSS link"
+                    style="width: 2rem; display: block; margin-top: 1rem;"></a></li>
+    </ul>
+    <hr>
+</nav>
+</header>
+
+    <main>
+        <section>
+            <article>
+                <p>Author: Warren Van Zuydam</p>
+                <p>Date: 13 September 2025</p>
+                <h1>You should make a personal website</h1>
+                <h2>Let's be honest... The modern web sucks!</h2>
+                <p>You read the main title. I'm not talking about some professional website, whipped up in Wix or
+                    Squarespace. I'm talking
+                    about good ol' HTML, CSS, and JavaScript. Nowadays, website design and development has lost its
+                    magic. There are many freemium tools people use to create a website. Don't get me wrong, the
+                    result looks nice, however, all that you've accomplished has been abstracted away by dashboards,
+                    frameworks, plug-ins, etc., and you're probably severely limited in the features you can add to your
+                    website, unless you pay a subscription for some plug-in you have no idea how it works, and
+                    will probably break your website next month, due to an update from a random plug-in developer. Back
+                    in the 90s, when Web 1.0 was still around, everyone who had access
+                    to dial-up internet, and a home PC would write their own websites from scratch in plain HTML. Yes,
+                    the website looked like crap, but it was yours. You created it from the ground up in Notepad, or any
+                    other plain text editor of your choice. It was fun, it was original, it was full of soul and
+                    personality. Where has it all gone? Even if you aren't using a website builder, you're probably a
+                    developer setting up some bloated development environment using Node.js, NPM, Vite, React, and
+                    more... Just to render a static website with some images, links, and buttons! The world of web
+                    development has become a bloated mess, but also a soulless mess. Every website looks the same. Every
+                    website is screaming with this stereotypical "modern" UI, animations, oversized images and text.
+                    Everything loads slower. Computers have become more powerful than ever, yet we are struggling to
+                    render a webpage, because it is spammed with ads, slow plug-ins, backend code which is doing
+                    who-knows-what. And why does every freakin' website require me to make some silly account? Why not
+                    cut straight to the meat and potatoes? You know how I'm writing this very blog post? I'm not doing
+                    it from a CMS like WordPress. I'm writing this baby in VS Code in plain HTML! Simple, fast,
+                    reliable, and it gets the job done... for free, I might add! And once I'm done writing this blog
+                    post, I'm gonna go to my feed.xml file, and add this blog post to my RSS feed, and drag and drop the
+                    updated files and folders to my static web host of choice. Boom! Simple. No logging into proprietary
+                    dashboards, no purchasing plug-ins that accomplish what I can do in plain HTML, CSS, and JavaScript
+                    for free... Just pure simplicity.</p>
+                <h2>So how can you get started by making and publishing your own website on the World Wide Web?</h2>
+                <p>Here's a list of things you need:</p>
+                <ol>
+                    <li>A domain name (Optional. There are free subdomains, like the one my website is using).</li>
+                    <li>A web host. This is a... well... website which serves your website online for everyone to see. I
+                        know, it sounds funny that in order to serve your website online, you need another website to do
+                        it. You can use GitHub Pages, Surge.sh, Neocities, Nekoweb, Hostinger, etc. etc. There are many
+                        options out there, but I recommend GitHub Pages. If you are really into the retro aesthetic,
+                        you like art, and overall quirkiness, then Neocities is your best bet.</li>
+                    <li>A computer.</li>
+                    <li>A willingness to learn something new.</li>
+                    <li>A source to learn some HTML.</li>
+                </ol>
+                <p>Don't worry about learning CSS or JavaScript yet. First get the basics down with HTML. Think of HTML
+                    as the structure of your website. CSS serves as the styling. JavaScript serves as a way for you to
+                    implement advanced interaction features. But you don't need CSS or JavaScript to get something out
+                    there online. Yes, your website will look ridiculously basic, but you'll have something functional.
+                    Here's a basic HTML template which you can use:</p>
+                <pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Your Awesome Website&lt;/title&gt;
+    &lt;link rel="icon" type="image/x-icon" href="/images/your-website-icon.png"&gt;
+    &lt;link rel="stylesheet" href="/styles/styles.css"&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+
+    &lt;header&gt;
+        &lt;img src="/images/your-website-logo.png" alt=""&gt;
+        &lt;nav&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href="/index.html"&gt;Home&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="/index.html"&gt;About&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="/index.html"&gt;Blog&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="/index.html"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/nav&gt;
+    &lt;/header&gt;
+
+    &lt;main&gt;
+        &lt;section&gt;
+            &lt;h1&gt;There can only be one h1 tag per webpage.&lt;/h1&gt;
+            &lt;h2&gt;h2 tags serve as headings, which can be used multiple times per webpage.&lt;/h2&gt;
+            &lt;p&gt;p tags are for text content.&lt;/p&gt;
+            &lt;h2&gt;This is another h2 heading.&lt;/h2&gt;
+            &lt;p&gt;This is some more text content&lt;/p&gt;
+            &lt;p&gt;section tags are used to group a bunch of related content together&lt;/p&gt;
+            &lt;a href="https://a-website.com/"&gt;This is an anchor tag. This allows you to create links to other websites,
+                or links to pages within your own website.&lt;/a&gt;
+        &lt;/section&gt;
+
+        &lt;section&gt;
+            &lt;h2&gt;This is another heading, but also another section of the webpage, which contains content unrelated to
+                the content above.&lt;/h2&gt;
+            &lt;p&gt;This is some more text content.&lt;/p&gt;
+        &lt;/section&gt;
+    &lt;/main&gt;
+
+    &lt;footer&gt;
+        &lt;p&gt;This is usually where your copyright text goes, as well as some social media links. Maybe add a "back to top"
+            link here.&lt;/p&gt;
+    &lt;/footer&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+</code></pre>
+                <p>Now this is far from a website you'd normally see, but this serves as the backbone of any website -
+                    even the ones that look super-duper fancy. Feel free to mess around with this piece of HTML code.
+                    But if you want to get deeper, and learn everything there is to make yourself a digital home, then
+                    take a look at some of these resources:</p>
+                <ul>
+                    <li><a href="https://www.w3schools.com/Html/" target="_blank">W3Schools</a></li>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content"
+                            target="_blank">MDN Web Docs</a></li>
+                    <li><a href="https://www.geeksforgeeks.org/html/html-tutorial/" target="_blank">GeeksforGeeks</a>
+                    </li>
+                </ul>
+                <h2>Where am I going with this blog post?</h2>
+                <p>I just really want people to get that spark of imagination once again - to create something for
+                    themselves online (Without using an unsatisfying web builder). Not all websites have to be this soulless, bloated, corporate thing. You can make
+                    a personal blog, upload your art, share your unfiltered opinions, etc. Make your digital home.</p>
+
+
+            </article>
+        </section>
+    </main>
+
+    <footer>
+<br>
+<br>
+<hr>
+<a href="#back-to-top">Back to top &#8593;</a>
+<p><a href="https://bsky.app/profile/warrenvanzuydam.bsky.social" target="_blank">Bluesky</a> | <a
+        href="https://www.linkedin.com/in/warren-van-zuydam-23b61a1b0/?originalSubdomain=za"
+        target="_blank">LinkedIn</a> | <a href="https://www.facebook.com/warren.vanzuydam.3"
+        target="_blank">Facebook</a> | <a href="https://warrenvz.github.io/feed.xml">RSS Feed</a></p>
+<p>Made with ❤️ in HTML</p>
+<p>© 2025, Warren Van Zuydam. All rights reserved.</p>
+<hr>
+</footer>
+
+    
+</body>
+
+</html>

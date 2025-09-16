@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image to Base64 Converter</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="bg-white p-8 rounded-lg shadow-lg max-w-lg w-full text-center">
+        <h1 class="text-2xl font-bold mb-4">Image to Base64 Converter</h1>
+        <p class="mb-4 text-gray-600">Drag and drop an image here to get its Base64 string.</p>
+        <div id="drop-area" class="border-2 border-dashed border-gray-400 rounded-lg p-8 cursor-pointer hover:border-blue-500 transition-colors duration-200">
+            <p>Drag & Drop your image file here</p>
+            <p class="text-sm text-gray-500 mt-1">(e.g., cmyk-color-wheel-palette.png)</p>
+        </div>
+        <textarea id="output" class="w-full mt-4 p-2 border rounded-lg text-sm bg-gray-50 font-mono" rows="10" readonly placeholder="The Base64 string will appear here..."></textarea>
+        <button id="copy-button" class="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500">Copy to Clipboard</button>
+    </div>
+
+    <script>
+        const dropArea = document.getElementById('drop-area');
+        const outputTextarea = document.getElementById('output');
+        const copyButton = document.getElementById('copy-button');
+
+        ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+            dropArea.addEventListener(eventName, preventDefaults, false);
+        });
+
+        function preventDefaults (e) {
+            e.preventDefault();
+            e.stopPropagation();
+        }
+
+        ['dragenter', 'dragover'].forEach(eventName => {
+            dropArea.addEventListener(eventName, highlight, false);
+        });
+
+        ['dragleave', 'drop'].forEach(eventName => {
+            dropArea.addEventListener(eventName, unhighlight, false);
+        });
+
+        function highlight(e) {
+            dropArea.classList.add('border-blue-500');
+        }
+
+        function unhighlight(e) {
+            dropArea.classList.remove('border-blue-500');
+        }
+
+        dropArea.addEventListener('drop', handleDrop, false);
+
+        function handleDrop(e) {
+            const dt = e.dataTransfer;
+            const files = dt.files;
+            
+            if (files.length > 0) {
+                const file = files[0];
+                const reader = new FileReader();
+                reader.onload = function(event) {
+                    outputTextarea.value = event.target.result;
+                    copyButton.textContent = 'Copy to Clipboard';
+                    copyButton.classList.remove('bg-green-600');
+                    copyButton.classList.add('bg-blue-600');
+                };
+                reader.readAsDataURL(file);
+            }
+        }
+
+        copyButton.addEventListener('click', () => {
+            outputTextarea.select();
+            document.execCommand('copy');
+            copyButton.textContent = 'Copied!';
+            copyButton.classList.remove('bg-blue-600');
+            copyButton.classList.add('bg-green-600');
+            setTimeout(() => {
+                copyButton.textContent = 'Copy to Clipboard';
+                copyButton.classList.remove('bg-green-600');
+                copyButton.classList.add('bg-blue-600');
+            }, 1500);
+        });
+    </script>
+</body>
+</html>
