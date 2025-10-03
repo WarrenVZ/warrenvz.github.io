@@ -1,0 +1,124 @@
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+  body {
+    background: #f4f4f4;
+  }
+
+  nav {
+    width: 100%;
+    height: 60px;
+    background: #ffffff76;
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px); /* Safari support */
+  }
+
+  nav .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    transition: 0.3s;
+  }
+
+  nav ul li a:hover {
+    color: #ff9800;
+  }
+
+  /* Hamburger menu */
+  .menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+  }
+
+  .menu-toggle span {
+    width: 25px;
+    height: 3px;
+    background: #fff;
+    border-radius: 2px;
+  }
+
+  /* Mobile styles */
+  @media (max-width: 768px) {
+    nav ul {
+      position: absolute;
+      top: 60px;
+      left: -100%;
+      flex-direction: column;
+      background: #333;
+      width: 100%;
+      text-align: center;
+      transition: left 0.3s ease;
+      padding: 20px 0;
+    }
+
+    nav ul.active {
+      left: 0;
+    }
+
+    .menu-toggle {
+      display: flex;
+    }
+  }
+</style>
+
+<nav>
+  <div class="logo">MySite</div>
+  <ul id="nav-links">
+    <li><a href="/index.html">Home</a></li>
+        <!-- <li><a href="/services.html">My Services</a></li> -->
+        <li>
+            <details>
+                <summary>Services</summary>
+                <ul>
+                    <li><a href="/services/vector-tracing.html">Vector Tracing</a></li>
+                    <li><a href="" style="color: #7a7a7a;">Transcription (Coming Soon)</a></li>
+                </ul>
+            </details>
+        </li>
+    <li><a href="/shop.html">My Shop</a></li>
+    <li><a href="/tools.html">Useful Tools</a></li>
+    <li><a href="/portfolio.html">My Portfolio</a></li>
+    <li><a href="/blog.html">My Blog</a></li>
+    <li><a href="/contact.html">Contact Me</a></li>
+  </ul>
+  <div class="menu-toggle" id="menu-toggle">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</nav>
+
+<script>
+  const menuToggle = document.getElementById("menu-toggle");
+  const navLinks = document.getElementById("nav-links");
+
+  menuToggle.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+  });
+</script>
