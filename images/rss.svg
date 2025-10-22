@@ -43,7 +43,7 @@
    x2="227.86549"
    y2="0"
    gradientUnits="userSpaceOnUse"
-   gradientTransform="translate(-3.1054687e-5)" /></defs><sodipodi:namedview
+   gradientTransform="translate(-785.7729,-92.175514)" /></defs><sodipodi:namedview
    id="namedview3"
    pagecolor="#ffffff"
    bordercolor="#000000"
@@ -52,25 +52,24 @@
    inkscape:pageopacity="0.0"
    inkscape:pagecheckerboard="0"
    inkscape:deskcolor="#d1d1d1"
-   inkscape:zoom="0.29906861"
-   inkscape:cx="91.952145"
-   inkscape:cy="-369.48044"
+   inkscape:zoom="1.1962744"
+   inkscape:cx="267.91511"
+   inkscape:cy="201.87675"
    inkscape:window-width="1920"
-   inkscape:window-height="988"
+   inkscape:window-height="992"
    inkscape:window-x="1920"
    inkscape:window-y="0"
    inkscape:window-maximized="1"
    inkscape:current-layer="Capa_1" />
 <rect
-   x="1043.2389"
-   y="0.000488266"
+   x="0"
+   y="0"
    style="fill:#000000;fill-opacity:1"
    width="455.73099"
    height="455.73099"
    id="rect1" />
 <g
-   id="g2"
-   transform="translate(1043.2389,4.8826599e-4)">
+   id="g2">
 		<path
    style="fill:#ffffff"
    d="M 296.208,159.16 C 234.445,97.397 152.266,63.382 64.81,63.382 v 64.348 c 70.268,0 136.288,27.321 185.898,76.931 49.609,49.61 76.931,115.63 76.931,185.898 h 64.348 C 391.986,303.103 357.971,220.923 296.208,159.16 Z"
@@ -86,8 +85,8 @@
    r="46.088001"
    id="circle2" />
 	</g><rect
-   x="0"
-   y="0"
+   x="-785.77289"
+   y="-92.175514"
    style="fill:url(#linearGradient2);fill-opacity:1"
    width="455.73099"
    height="455.73099"
@@ -95,11 +94,11 @@
    ry="72.408623" /><circle
    style="mix-blend-mode:normal;fill:#ffffff;stroke:none;stroke-width:113.386;stroke-linecap:round;filter:url(#filter3)"
    id="circle4"
-   cx="316.23364"
-   cy="-541.6817"
+   cx="687.75812"
+   cy="-1425.9535"
    r="139.49742" /><g
    id="g6"
-   transform="translate(6.8945312e-5)">
+   transform="translate(-785.7728,-92.175514)">
 		<path
    style="fill:#ffffff"
    d="M 296.208,159.16 C 234.445,97.397 152.266,63.382 64.81,63.382 v 64.348 c 70.268,0 136.288,27.321 185.898,76.931 49.609,49.61 76.931,115.63 76.931,185.898 h 64.348 C 391.986,303.103 357.971,220.923 296.208,159.16 Z"
