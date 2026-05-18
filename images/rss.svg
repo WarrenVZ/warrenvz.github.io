@@ -7,7 +7,7 @@
    viewBox="0 0 455.731 455.731"
    xml:space="preserve"
    sodipodi:docname="rss.svg"
-   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -43,7 +43,7 @@
    x2="227.86549"
    y2="0"
    gradientUnits="userSpaceOnUse"
-   gradientTransform="translate(-3.1054687e-5)" /></defs><sodipodi:namedview
+   gradientTransform="translate(-167.57484,775.51109)" /></defs><sodipodi:namedview
    id="namedview3"
    pagecolor="#ffffff"
    bordercolor="#000000"
@@ -52,25 +52,25 @@
    inkscape:pageopacity="0.0"
    inkscape:pagecheckerboard="0"
    inkscape:deskcolor="#d1d1d1"
-   inkscape:zoom="0.29906861"
-   inkscape:cx="91.952145"
-   inkscape:cy="-369.48044"
+   inkscape:zoom="1.1962744"
+   inkscape:cx="175.545"
+   inkscape:cy="78.159323"
    inkscape:window-width="1920"
-   inkscape:window-height="988"
-   inkscape:window-x="1920"
-   inkscape:window-y="0"
+   inkscape:window-height="991"
+   inkscape:window-x="2391"
+   inkscape:window-y="-9"
    inkscape:window-maximized="1"
-   inkscape:current-layer="Capa_1" />
+   inkscape:current-layer="Capa_1"
+   showgrid="false" />
 <rect
-   x="1043.2389"
-   y="0.000488266"
+   x="0"
+   y="0"
    style="fill:#000000;fill-opacity:1"
    width="455.73099"
    height="455.73099"
    id="rect1" />
 <g
-   id="g2"
-   transform="translate(1043.2389,4.8826599e-4)">
+   id="g2">
 		<path
    style="fill:#ffffff"
    d="M 296.208,159.16 C 234.445,97.397 152.266,63.382 64.81,63.382 v 64.348 c 70.268,0 136.288,27.321 185.898,76.931 49.609,49.61 76.931,115.63 76.931,185.898 h 64.348 C 391.986,303.103 357.971,220.923 296.208,159.16 Z"
@@ -86,8 +86,8 @@
    r="46.088001"
    id="circle2" />
 	</g><rect
-   x="0"
-   y="0"
+   x="-167.57481"
+   y="775.51111"
    style="fill:url(#linearGradient2);fill-opacity:1"
    width="455.73099"
    height="455.73099"
@@ -99,7 +99,7 @@
    cy="-541.6817"
    r="139.49742" /><g
    id="g6"
-   transform="translate(6.8945312e-5)">
+   transform="translate(-167.57474,775.51109)">
 		<path
    style="fill:#ffffff"
    d="M 296.208,159.16 C 234.445,97.397 152.266,63.382 64.81,63.382 v 64.348 c 70.268,0 136.288,27.321 185.898,76.931 49.609,49.61 76.931,115.63 76.931,185.898 h 64.348 C 391.986,303.103 357.971,220.923 296.208,159.16 Z"
